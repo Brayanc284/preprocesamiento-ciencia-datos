@@ -1,6 +1,6 @@
 ## Proyecto: Preprocesamiento de Ciencia de Datos
 ## Objetivo 
-## Este proyecto tiene como objetivo aplicar técnicas básicas de **control de versiones** utilizando Git y GitHub, además de implementar un flujo de trabajo automatizado mediante **GitHub Actions (CI/CD)**.  
+## Este proyecto tiene como objetivo aplicar técnicas básicas de control de versiones utilizando Git y GitHub, además de implementar un flujo de trabajo automatizado mediante GitHub Actions (CI/CD).  
 
 ## El proyecto incluye la creación de ramas, commits, fusión (Pull Request) y automatización de tareas con workflows.
 
