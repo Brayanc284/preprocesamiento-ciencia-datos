@@ -1,4 +1,6 @@
 ## Proyecto: Preprocesamiento de Ciencia de Datos
+## Brayan Gualberto Cardenas Medina 
+## 3 Semestre "A"
 ## Objetivo 
 ## Este proyecto tiene como objetivo aplicar técnicas básicas de control de versiones utilizando Git y GitHub, además de implementar un flujo de trabajo automatizado mediante GitHub Actions (CI/CD).  
 
