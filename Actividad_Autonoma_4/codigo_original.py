@@ -1,30 +1,22 @@
-import time 
+import time
 
-def num_primo (n):
-    if n <= 1:
+def es_primo(n):
+    if n < 2:
         return False
-    for i in range(2, int(n**0.5) + 1):
+    for i in range(2, n):
         if n % i == 0:
             return False
     return True
 
-
-def buscar_numeros_primos (limite):
-    primos = []
-    for num in range(2, limite + 1):
-        if num_primo(num):
-            primos.append(num)
-    return primos
-
-limite = 100000
-
-print(f"Buscando números primos hasta {limite}...")
 inicio = time.time()
-primos = buscar_numeros_primos(limite)
+
+primos = []
+for num in range(1, 100001):
+    if es_primo(num):
+        primos.append(num)
+
 fin = time.time()
 
-tiempo_total = fin - inicio
+print("Tiempo de ejecución:", fin - inicio, "segundos")
 
-print(f"Total de números primos encontrados: {len(primos)}")
-print(f"Tiempo total de ejecución: {tiempo_total:.2f} segundos")
 
