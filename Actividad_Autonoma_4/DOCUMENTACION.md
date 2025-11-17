@@ -1,5 +1,8 @@
 ## Optimización de Código y Medición de Tiempos ##
 
+**Brayan Gualberto Cardenas Medina**
+**Tercero A**
+
 ### Introduccion ###
 
 El objetivo de este trabajo autonomo fue el analicis y la optimización de
